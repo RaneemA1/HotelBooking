@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TermsConditions: View {
+struct TermsConditionsView: View {
     @Environment(\.colorScheme) var colorScheme
     @Environment(\.dismiss) var dismiss
     
@@ -39,6 +39,6 @@ struct TermsConditions: View {
 
 #Preview {
     NavigationStack {
-        TermsConditions()
+        TermsConditionsView()
     }
 }

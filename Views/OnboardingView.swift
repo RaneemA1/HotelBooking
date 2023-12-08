@@ -9,14 +9,15 @@ import SwiftUI
 
 struct OnboardingView: View {
     
+    @StateObject private var vm =  OnboardingViewViewModel()
     @Binding var didOnboard: Bool
-    @State private var selectedTab: Int = 0
+  
     
     var body: some View {
        
         ZStack{
             
-            TabView(selection: $selectedTab) {
+            TabView(selection: $vm.selectedTab) {
                 
                 onboardingItem(image: "img1", title: "Easy way to book hotels with us " ,text: "It is a long established fact that a reader will be distracted by the readable content.")
                     .tag(0)
@@ -142,10 +143,7 @@ struct OnboardingView: View {
                             
                             
                         })
-                        //                    .fullScreenCover(isPresented: $isPrsnt){
-                        //                        Login()
-                        //
-                        //                    }
+                       
                         
                         
                         
@@ -154,10 +152,10 @@ struct OnboardingView: View {
                     
                     Button(action: {
                         withAnimation {
-                            if selectedTab == 2 {
-                                // go to login
+                            if vm.selectedTab == 2 {
+                            
                             } else {
-                                selectedTab += 1
+                                vm.selectedTab += 1
                             }
                         }
                         

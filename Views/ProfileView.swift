@@ -6,19 +6,7 @@
 //
 
 import SwiftUI
-class ProfileViewViewModel: ObservableObject {
-    
-    
-    
-    
-    func logout() {
-        Task {
-            AuthService.shared.user = nil
-            AuthService.shared.loggedIn = false
-            AuthService.shared.token = ""
-        }
-    }
-}
+
 
 struct ProfileView: View {
     @StateObject private var vm = ProfileViewViewModel()
@@ -68,7 +56,7 @@ struct ProfileView: View {
                 List {
                     if auth.user != nil {
                         listRow(title: "Edit Profile", imageName: "edit") {
-                            EditProfile()
+                            EditProfileView()
                             
                         }
                         
@@ -92,10 +80,10 @@ struct ProfileView: View {
                     .padding(.vertical, 12)
                     
                     listRow(title: "Privacy Policy", imageName: "privacy") {
-                        PrivacyPolicy()
+                        PrivacyPolicyView()
                     }
                     listRow(title: "Terms & Conditions", imageName: "terms") {
-                        TermsConditions()
+                        TermsConditionsView()
                     }
                     
                     Button {

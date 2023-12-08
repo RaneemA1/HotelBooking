@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PrivacyPolicy: View {
+struct PrivacyPolicyView: View {
     @Environment(\.colorScheme) var colorScheme
     @Environment(\.dismiss) var dismiss
     var body: some View {
@@ -37,6 +37,6 @@ struct PrivacyPolicy: View {
 
 #Preview {
     NavigationStack {
-        PrivacyPolicy()
+        PrivacyPolicyView()
     }
 }
