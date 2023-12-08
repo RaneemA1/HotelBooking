@@ -4,6 +4,83 @@
     "" : {
 
     },
+    " " : {
+
+    },
+    "         %lld.0" : {
+
+    },
+    "  %lld.0" : {
+
+    },
+    " %lld.0" : {
+
+    },
+    "%@ " : {
+
+    },
+    "%@ %lld / %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$lld / %3$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "$" : {
+      "comment" : "dolar"
+    },
+    "$ %lld /night" : {
+
+    },
+    "1" : {
+      "comment" : "any 1"
+    },
+    "2" : {
+      "comment" : "any 2"
+    },
+    "3" : {
+      "comment" : "any 3"
+    },
+    "4" : {
+      "comment" : "any 3"
+    },
+    "5.0" : {
+
+    },
+    "Add" : {
+      "comment" : "Add"
+    },
+    "Add The Card Information To Insure Booking" : {
+
+    },
+    "adult:" : {
+
+    },
+    "adult: %lld | children:  %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "adult: %1$lld | children:  %2$lld"
+          }
+        }
+      }
+    },
+    "Adults :" : {
+      "comment" : "Adults :"
+    },
+    "Age 14 or above" : {
+      "comment" : "Age 14 or above"
+    },
+    "Ages 2-13" : {
+      "comment" : "Ages 2-13"
+    },
     "Already a member?" : {
       "localizations" : {
         "ar" : {
@@ -13,6 +90,18 @@
           }
         }
       }
+    },
+    "Back to Home" : {
+
+    },
+    "Best Hotels" : {
+      "comment" : "Best Hotels"
+    },
+    "Card Holder Name" : {
+
+    },
+    "Card Number" : {
+
     },
     "Change Language" : {
       "localizations" : {
@@ -24,6 +113,21 @@
         }
       }
     },
+    "Children :" : {
+      "comment" : "Children :"
+    },
+    "children:" : {
+
+    },
+    "Choose" : {
+
+    },
+    "Choose how to pay" : {
+
+    },
+    "Close" : {
+
+    },
     "Conditions of Uses" : {
       "localizations" : {
         "ar" : {
@@ -34,6 +138,12 @@
         }
       }
     },
+    "Confirm" : {
+      "comment" : " "
+    },
+    "Congratulations🎉" : {
+      "comment" : "Congratulations🎉"
+    },
     "Continue as guest" : {
       "localizations" : {
         "ar" : {
@@ -43,6 +153,9 @@
           }
         }
       }
+    },
+    "CVV" : {
+
     },
     "Dark Mode" : {
       "localizations" : {
@@ -63,6 +176,9 @@
           }
         }
       }
+    },
+    "Dates: %@" : {
+
     },
     "Discover and find your perfect healing place " : {
       "localizations" : {
@@ -114,6 +230,9 @@
         }
       }
     },
+    "ِEnd :" : {
+      "comment" : "End :"
+    },
     "Enter your information beiow " : {
       "localizations" : {
         "ar" : {
@@ -123,6 +242,9 @@
           }
         }
       }
+    },
+    "Expiry Date" : {
+
     },
     "facebook" : {
 
@@ -183,6 +305,19 @@
     },
     "Guest" : {
 
+    },
+    "Guests:  adult%lld ,children: %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Guests:  adult%1$lld ,children: %2$lld"
+          }
+        }
+      }
+    },
+    "Infants :" : {
+      "comment" : "Infants : (infants)\nInfants :"
     },
     "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)." : {
 
@@ -304,6 +439,9 @@
         }
       }
     },
+    "night" : {
+      "comment" : "night"
+    },
     "Or login with" : {
       "localizations" : {
         "ar" : {
@@ -313,6 +451,9 @@
           }
         }
       }
+    },
+    "Overview" : {
+      "comment" : "Overview"
     },
     "Password" : {
       "localizations" : {
@@ -324,6 +465,12 @@
         }
       }
     },
+    "Pay" : {
+
+    },
+    "Pay Now" : {
+
+    },
     "Payment Method" : {
       "localizations" : {
         "ar" : {
@@ -334,8 +481,17 @@
         }
       }
     },
+    "Payment received" : {
+      "comment" : "Payment received"
+    },
     "Please read these terms of service, carefully before using our app operated by us." : {
 
+    },
+    "Price :" : {
+
+    },
+    "Price:" : {
+      "comment" : "Price:"
     },
     "Privacy Policy" : {
       "localizations" : {
@@ -377,6 +533,27 @@
         }
       }
     },
+    "Search" : {
+      "comment" : "Search"
+    },
+    "Search For Hotel" : {
+      "comment" : "Search For Hotel"
+    },
+    "See All" : {
+      "comment" : "See All"
+    },
+    "Select Date :" : {
+      "comment" : "Select Date :"
+    },
+    "Select Dates" : {
+      "comment" : "Select Dates"
+    },
+    "Select Guest" : {
+      "comment" : "Select Guest"
+    },
+    "Select Guest :" : {
+      "comment" : "Select Guest :"
+    },
     "Skip" : {
       "localizations" : {
         "ar" : {
@@ -386,6 +563,12 @@
           }
         }
       }
+    },
+    "Start :" : {
+      "comment" : "Start :"
+    },
+    "Successfully" : {
+      "comment" : "Successfully"
     },
     "TabBar View" : {
       "extractionState" : "stale",
@@ -411,6 +594,12 @@
     "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc." : {
 
     },
+    "Total Price:" : {
+
+    },
+    "Under 2" : {
+      "comment" : "Under 2"
+    },
     "Update" : {
       "localizations" : {
         "ar" : {
@@ -420,6 +609,15 @@
           }
         }
       }
+    },
+    "You can Search for All Hotels" : {
+
+    },
+    "Your Booking Details" : {
+
+    },
+    "Your booking has beeb confirmed" : {
+
     }
   },
   "version" : "1.0"

@@ -18,7 +18,7 @@ struct ContentView: View {
         if didSplash {
             if didOnboard {
                 if auth.loggedIn {
-                    ProfileView()
+                    MainView()
                 } else {
                     LoginView()
                 }

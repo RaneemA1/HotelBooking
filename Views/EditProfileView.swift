@@ -25,7 +25,7 @@ struct EditProfileView: View {
                 Spacer()
                 PhotosPicker(selection: $vm.imageItem, matching: .images) {
                     if let image = vm.image {
-                        // show user image
+                       
                         image
                             .resizable()
                             .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
